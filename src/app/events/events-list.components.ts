@@ -2,8 +2,9 @@ import {Component} from '@angular/core'
 
 @Component({
     selector: 'events-list',
-    template: `<event-thumbnail (eventClick)= "handleEventClicked($event)" 
-    [event] = event1 ></event-thumbnail>`
+    template: `<event-thumbnail [event]= event1 ></event-thumbnail>`
+    /*template: `<event-thumbnail (eventClick)= "handleEventClicked($event)" 
+    [event] = event1 ></event-thumbnail>`*/
 
 })
 
